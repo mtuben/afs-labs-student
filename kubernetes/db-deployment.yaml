@@ -23,6 +23,6 @@ spec:
         - secretRef:
             name: db-secret
         name: db-deployment
-        image: harbor.dev.afsmtddso.com/mtuben-harbor-project/db:971c881-a522885
+        image: harbor.dev.afsmtddso.com/mtuben-harbor-project/db:ec2a81b-a522885
         ports:
         - containerPort: 5432
