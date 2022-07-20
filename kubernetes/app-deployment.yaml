@@ -23,6 +23,6 @@ spec:
         - secretRef:
             name: db-secret
         name: app-deployment
-        image: harbor.dev.afsmtddso.com/mtuben-harbor-project/app:ec2a81b-a522885
+        image: harbor.dev.afsmtddso.com/mtuben-harbor-project/app@sha256:5c4a7633be72e07e50168307b5107a1bc3f5c10e9e07590ae4faca8dff47f582
         ports:
-        - containerPort: 5000
+        - containerPort: 5432
