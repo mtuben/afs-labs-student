@@ -25,4 +25,4 @@ spec:
         name: app-deployment
         image: harbor.dev.afsmtddso.com/mtuben-harbor-project/app@sha256:5c4a7633be72e07e50168307b5107a1bc3f5c10e9e07590ae4faca8dff47f582
         ports:
-        - containerPort: 5432
+        - containerPort: 5000
